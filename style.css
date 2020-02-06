@@ -118,7 +118,7 @@ body{
 }
 .section-for-video-software{
     background-color: #ca95a4;
-    
+    height: 576px;
     position: relative;
     flex-wrap: wrap;
     
