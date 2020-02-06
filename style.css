@@ -1,0 +1,431 @@
+body{
+    font-family: sans-serif;
+   /* max-width:800; */
+   margin:auto;
+}
+.barmenu{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.menub{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    padding:23px 15px ;
+}
+.menuu{
+    font-size: 14 !important;
+}
+.mennuwistia{
+    
+    position: relative;
+   /* display: inline-block;*/
+
+    display: flex;
+}
+.mennuwistia-info{
+    left: -105px;
+    display: none;
+    top:75px;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  justify-content: space-between;
+  background-color: white;
+  width: 100vw;
+}
+.mennuwistia-content{
+    display: flex;  
+    width:60%;
+    justify-content: space-between;
+}
+.mennuwistia:hover .mennuwistia-info
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mennuwistia-content-logo{
+    padding: 30px;
+}
+.mennuwistia-content-help{
+    
+    padding: 30px;
+   
+}
+.mennuwistia-Customize{
+    padding: 30px;
+}
+.mennuwistia-Convert{
+    padding: 30px;
+}
+.mennuwistia-Analyze{
+    padding: 30px;
+}
+.title-mennuwisita{
+    color:rgb(91, 107, 127);
+    font-size: 11px;
+    
+}
+.lien-mennuwistia{
+    font-size: 11px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+.lien-mennuwistia:link{
+    color:black;
+}
+.lien-mennuwistia:visited{
+    color:black;
+    text-decoration: underline;
+}
+.mennuwistia-button{
+    margin:70px;
+    background-color: #3ea9f5;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#login{
+    width:100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+   margin:15px 0 15px;
+   cursor: pointer;
+}
+#login:hover{
+    box-shadow:grey 4px 4px;
+}
+#signup{
+    width:100px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:#3ea9f5; 
+    margin:15px 15px 15px 8px;
+    color:white;
+    cursor: pointer;
+}
+#signup:hover{
+  box-shadow:  grey 4px 4px;
+}
+.section-for-video-software{
+    background-color: #ca95a4;
+    
+    position: relative;
+    flex-wrap: wrap;
+    
+   
+}
+.video1{
+    position: absolute;
+    top: 176px;
+    right: 200px;
+    width:500px;
+    height: 400px;
+}
+.for-video-paragraphe{
+    height:600px;
+   padding: 150px 60% 150px 80px;
+
+}
+.title-for-video-software{
+    font-size:2.6em !important;
+}
+#Watch-video
+{
+    font-size:21px;
+    color :#33353f;
+    padding: 25px 55px;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+#Watch-video:hover
+{
+      box-shadow:  grey 4px 4px;
+}
+h1{
+color: white;
+font-size: 30px;
+}
+p{
+    color :#33353f;
+    
+}
+.more-information{
+    display:flex;
+    flex-grow: 1;
+    height:500px;
+    margin-bottom: 130px;
+}
+.Wistia-Hosting{
+    background-color: #fed24a;
+    display:flex;
+    flex-direction: column-reverse;
+    padding:60px;
+    flex-grow: 1;
+}
+#button1-for-section2{
+    padding: 20px;
+    margin:15px 50px;
+    border-radius: 8px;
+    background-color:  #fed24a;
+    color :#33353f;
+    font-size: 15px;
+    flex-grow: 1;
+    cursor: pointer;
+
+}
+
+#button1-for-section2:hover ~svg {
+    fill: green;
+    }
+#button1-for-section2:hover{
+background-color: white;
+box-shadow:  grey 4px 4px;
+}
+.paragraphe-section2{
+    font-size: 24px;
+}
+.soapbox{
+    background-color: #51c29f;
+    display:flex;
+    flex-direction: column-reverse;
+    padding:60px;
+    flex-grow: 1;
+}
+
+#button2-for-section2{
+    padding: 20px;
+    margin:15px 50px;
+    border-radius: 8px;
+    background-color:  #51c29f;
+    color :#33353f;
+    font-size: 15px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+#button2-for-section2:hover{
+    background-color: white;
+    box-shadow:  grey 4px 4px;
+}
+#button2-for-section2:hover ~ .IconLaptop{
+fill:blue;
+}
+
+.grow-your-video-skills{
+    background-color: #3ea9f5;
+    display:flex;
+    flex-direction: column-reverse;
+    padding:60px;
+    flex-grow: 1;
+}
+#button3-for-section2{
+    padding: 20px;
+    margin:15px 50px;
+    border-radius: 8px;
+    background-color:  #3ea9f5;
+    color :#33353f;
+    font-size: 15px;
+    flex-grow: 1;
+    cursor: pointer;
+   
+
+}
+#button3-for-section2:hover{
+    background-color: white;
+    box-shadow:  grey 4px 4px;
+}
+#button3-for-section2:hover ~svg{
+    fill: red;
+}
+.spons{
+    padding:15px;
+    display: flex;
+    justify-content:space-around;
+    flex-grow: 1;
+}
+.paragraphe-spons{
+    width:130px;
+    color :#9CA8B7;
+    
+    
+}
+.catalogue{
+display: flex;
+
+position: relative;
+}
+.original-serie{
+  position: relative;
+  padding:80px 40px 80px 80px;
+}
+.overflow{
+    width:350px;
+    height:240px;
+    position:absolute;
+    background-color: blue;
+    top:79px;
+   opacity:0;
+}
+.overflow:hover{
+    opacity: 0.7;
+    display:flex;
+}
+.overflow2{
+    width:350px;
+    height:240px;
+    position:absolute;
+    background-color: green;
+    top:79px;
+   opacity:0;
+}
+.overflow2:hover{
+    opacity: 0.7;
+    display:flex;
+    
+}
+.overflow3{
+    width:350px;
+    height:240px;
+    position:absolute;
+    background-color: red  ;
+    top:79px;
+   opacity:0;
+}
+.overflow3:hover{
+    opacity: 0.7;
+    display:flex;
+}
+.wastia-channels{
+  
+    padding:80px 40px ;
+}
+.taking-the-road{
+ 
+    padding:80px 40px ;
+}   
+.title-original-serie{
+    color:black !important;
+
+}
+.title-wastia-channels{
+    color:black !important;
+}
+.title-taking-the-road{
+    color:black !important;
+}
+.Terms-of-Service{
+    background-color: #EFEFEF;
+    text-align: center;
+    padding:25px ;
+}
+.last-footer{
+    display:flex;
+    background-color: #2a2d35;
+   justify-content: space-around;
+ 
+    padding:80px
+    
+}
+
+.Follow-us{
+    
+    flex:2;
+    
+    border-right: white solid 1px;
+   
+}
+.title-last-footer-follow-us{
+    font-size: 30px ;
+  
+}
+.folow-us-paragraphe{
+    color:white;
+}
+.create-free-account
+{
+    display: flex;
+    flex:1;
+    padding :0 40px ;
+    flex-direction: column;
+}
+.install-for-free{
+    display: flex;
+    flex-direction:column;
+    flex:1;
+    padding :0 40px ;
+}
+.company
+{
+    display: flex;
+    flex-direction:column;
+    flex:1;
+    padding :0 40px ;
+}
+.Support{
+    display: flex;
+    flex-direction:column;
+    flex:1;
+    padding :0 80px 0 40px ;
+}
+.title-for-footer{
+    color:#9CA8B7;
+    font-size: 14px;
+}
+.lien:visited{
+    color :white;
+}
+.lien:link{
+    color:white;
+    text-decoration: none;
+}
+.lien:active{
+    color:white;
+    text-decoration: underline;
+}
+
+.follow:link{
+    color:green
+}
+.follow:visited{
+    color:green
+}
+.follow:active{
+    text-decoration: underline;
+}
+.follow:hover{
+    color:green;
+    text-decoration: underline;
+}
+.lien{
+   margin-bottom: 10px;
+}
+.lien-create-free-account:link{
+    color :blue;
+    text-decoration: none;
+}
+.lien-create-free-account:hover{
+    color:green;
+}
+.lien-install-for-free:link{
+    color:#FD9786;
+}
+.rights-reserved{
+    background-color:#2a2d35 ;
+ border:solid 1px #2a2d35;
+
+}
+.rights-reserved-paragraphe{
+
+    text-align: center;
+    color :white;   
+}
